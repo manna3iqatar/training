@@ -1,0 +1,18 @@
+Pearl Ayem7:14 PM
+plt.style.use('seaborn-darkgrid')
+Pearl Ayem7:33 PM
+upwelling sw/ downwelling sw
+downwelling sw/ upwelling sw
+Pearl Ayem7:56 PM
+col_names = ['time','body_temp_C','therm_temp','targ_temp']
+Note: 
+body_temp is surface body temperature of IR thermometer in deg C
+
+voltage output of thermistor in mV
+
+therm_temp is target temperature; calculated by adding the sensor body temperature raised to the fourth power and 
+the mV output multiplied by the slope (m) and the y-intercept(b),then the fourth root of this sum
+"""
+Pearl Ayem7:58 PM
+start time= 13th march 2020 at 12:00:00 pm
+end time= 13th march 2020 at 12:09:30 pm
